@@ -1,0 +1,157 @@
+
+======= order by sex ===========
+ 
+ // http://localhost:3000/orderitems/orders_by_sex
+
+{
+  "results": [
+    {
+      "female": {
+        "sex": "Female",
+        "numberOrders": 1781,
+        "percentage": "50.89%",
+        "totalOrders": 3500
+      }
+    },
+    {
+      "male": {
+        "sex": "Male",
+        "numberOrders": 1719,
+        "percentage": "49.11%",
+        "totalOrders": 3500
+      }
+    }
+  ]
+}
+
+
+======= order by city =======
+
+// http://localhost:3000/orderitems/orders_by_city
+
+{
+  "results": [
+    {
+      "city": "Bordeaux",
+      "numberOrders": 666,
+      "percentage": "19.03%",
+      "totalOrders": 3500
+    },
+    {
+      "city": "Lyon",
+      "numberOrders": 719,
+      "percentage": "20.54%",
+      "totalOrders": 3500
+    },
+    {
+      "city": "Marseille",
+      "numberOrders": 796,
+      "percentage": "22.74%",
+      "totalOrders": 3500
+    },
+    {
+      "city": "Nice",
+      "numberOrders": 539,
+      "percentage": "15.40%",
+      "totalOrders": 3500
+    },
+    {
+      "city": "Paris",
+      "numberOrders": 780,
+      "percentage": "22.29%",
+      "totalOrders": 3500
+    }
+  ]
+}
+
+======= highest spender ========
+// http://localhost:3000/orderitems/highest_spender
+(spent most in one purchase + amount)
+
+{
+  "results": [
+    {
+      "client": "Ms. Margarito Bernhard",
+      "sex": "Male",
+      "mobile": "184-283-5484",
+      "amount": 134
+    }
+  ]
+}
+
+=========== spending by age group===========
+
+  # most spending age group (sum oney spent by each group)
+  # 0-26 [Adolescence]
+  # 27-35 [Youths]
+  # 35-   [adults]
+
+// http://localhost:3000/orderitems/spending_amounts_by_age_group
+
+{
+  "results": [
+    {
+      "age_group": "Adolescence",
+      "amount": 2752,
+      "percentage": "17.19%"
+    },
+    {
+      "age_group": "Adults",
+      "amount": 11840,
+      "percentage": "73.95%"
+    },
+    {
+      "age_group": "Youths",
+      "amount": 1419,
+      "percentage": "8.86%"
+    }
+  ]
+}
+
+============= most ordered category ===========
+http://localhost:3000/categories/most_ordered_category
+{
+  "results": [
+    {
+      "category": "drinks"
+    }
+  ]
+}
+
+======= 5 most ordered items ===================
+/ http://localhost:3000/items/most_ordered_items
+
+{
+  "results": [
+    {
+      "id": 1,
+      "item": "jus-Cranberry",
+      "price": 4,
+      "numberOfOrders": 198
+    },
+    {
+      "id": 2,
+      "item": "pizza-Pho",
+      "price": 7,
+      "numberOfOrders": 193
+    },
+    {
+      "id": 3,
+      "item": "cake-Snowpeas",
+      "price": 4,
+      "numberOfOrders": 191
+    },
+    {
+      "id": 4,
+      "item": "pizza-Ricotta Stuffed Ravioli",
+      "price": 2,
+      "numberOfOrders": 190
+    },
+    {
+      "id": 5,
+      "item": "cake-Mulberries",
+      "price": 2,
+      "numberOfOrders": 187
+    }
+  ]
+}

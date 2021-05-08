@@ -1,0 +1,57 @@
+soutenance: 18 juin
+
+CHECK Page17 of referentiel of things that will be inside document
+(Annexex = catptures ecrans et captures code)
+
+de l'ordre de 50 pages
+
+2 exemplaires imprimeeer
+
+relier les documents
+
+un somaires
+Annexe (ne peut demander 10 feuilles)
+bien indiquer provenance des Annexes
+
+Powerpoint a faire
+
+Notes
+50% rapport
+50% soutenance
+
+dont read soutenance during Rapport
+Jury de l'orale differentes du jury de correction du rapport ecrit
+
+envoi rapport 03 semaine avant (around debut MAI)
+
+(lire page 16-19 referentiel pour plus d'infos)
+
+
+These professionelle : recherche applique
+
+
+- Planning (project management)
+- why you choosed the technologies
+- viabilite du projet
+
+
+d'ici 04 fevrier <--proposer sujet du RAPPORT (sbenhariz@nextgroup.fr), mettre Anna en copie
+
+
+[evaluation nextVillage]
+
+
+===================== more infos =================
+INTRODUCTION: la problematique. Justifier ke votre memoire vaut le coup d'etre lu
+On peut deja donner les grandes lignes sur comment on souhait s'y prendre pour
+resoudre
+
+Analyser de l'existant
+
+avantages + les limites de l'existant
+
+explain the tools + concepts
+
+montrer l'implementation + mise en place de la solution
+
+comment resoudre les limites de mes futures problemes
